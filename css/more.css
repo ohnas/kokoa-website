@@ -1,0 +1,73 @@
+.top__circle2 {
+  position: relative;
+  top: -20px;
+  left: 160px;
+}
+
+.chats-middle__title__content .fa-info-circle {
+  margin-left: 10px;
+  color: red;
+}
+
+.chats-middle__icons .fa-envelope-open-text {
+  margin-right: 10px;
+}
+
+.more-middle,
+.more-middle-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+
+.more-middle__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-middle__content i {
+  margin-bottom: 20px;
+}
+
+.more-middle__content span {
+  font-size: 20px;
+}
+
+#moreicon {
+  position: relative;
+  left: -50px;
+}
+
+.more-bottom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.more-bottom__title {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.more-bottom-2 {
+  display: flex;
+}
+
+.more-bottom-2__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.more-bottom-2__content i {
+  margin-bottom: 20px;
+}
+
+.more-bottom-2__content span {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}

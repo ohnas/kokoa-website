@@ -1,0 +1,57 @@
+@import @import
+  url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import "reset.css";
+@import "login.css";
+@import "friends.css";
+@import "chats.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9fa;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 20px 50px;
+}
+
+.footer-content {
+  display: flex;
+}
+
+.footer-content__alert {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #ff6229;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -7px;
+  left: -10px;
+}
+
+.footer-content span {
+  color: white;
+}
+
+.footer-content__circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ff6229;
+}
