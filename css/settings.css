@@ -29,9 +29,13 @@
   margin-right: 20px;
 }
 
-#version,
+#version {
+  margin-left: 190px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 #default {
-  margin-left: 300px;
+  margin-left: 150px;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -44,6 +48,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 10px;
 }
 
 #display span,
