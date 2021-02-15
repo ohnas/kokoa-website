@@ -44,6 +44,18 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(360deg) scale(1.5, 1.5);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .chats-middle__icons__circle {
   width: 25px;
   height: 25px;
@@ -53,6 +65,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .chats-middle__icons__circle span {
